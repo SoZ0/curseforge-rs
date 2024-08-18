@@ -1,0 +1,14 @@
+[package]
+name = "curseforge-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+apiclient-rs = { path = "../apiclient-rs" }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+serde = { version = "1.0.205", features = ["derive"] }
+serde_json = "1.0.122"
+tokio = { version = "1.26", features = ["full"] }
+serde_path_to_error = "0.1.16"
+serde_repr = "0.1.19"
